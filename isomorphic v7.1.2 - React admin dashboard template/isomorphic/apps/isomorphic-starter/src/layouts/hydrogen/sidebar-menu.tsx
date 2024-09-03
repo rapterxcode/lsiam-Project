@@ -90,9 +90,6 @@ export function SidebarMenu() {
                               {dropdownItem?.name}
                             </span>
                           </div>
-                          {dropdownItem?.badge?.length ? (
-                            <StatusBadge status={dropdownItem?.badge} />
-                          ) : null}
                         </Link>
                       );
                     })}
@@ -122,9 +119,6 @@ export function SidebarMenu() {
                       )}
                       <span className="truncate">{item.name}</span>
                     </div>
-                    {item?.badge?.length ? (
-                      <StatusBadge status={item?.badge} />
-                    ) : null}
                   </Link>
                 )}
               </>
