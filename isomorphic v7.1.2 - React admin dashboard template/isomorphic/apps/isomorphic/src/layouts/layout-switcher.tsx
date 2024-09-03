@@ -25,10 +25,10 @@ const layoutOptions = [
     icon: LithiumIcon,
     value: LAYOUT_OPTIONS.LITHIUM,
   },
-  {
-    icon: BerylliumIcon,
-    value: LAYOUT_OPTIONS.BERYLLIUM,
-  },
+  // {
+  //   icon: BerylliumIcon,
+  //   value: LAYOUT_OPTIONS.BERYLLIUM,
+  // },
   // {
   //   icon: BoronIcon,
   //   value: LAYOUT_OPTIONS.BORON,
